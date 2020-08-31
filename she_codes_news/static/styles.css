@@ -52,3 +52,8 @@ a {
 a, p {
     font-family: monospace;
 }
+
+form {
+    background-color: rgb(192, 152, 67);
+    padding: 20px;
+}
