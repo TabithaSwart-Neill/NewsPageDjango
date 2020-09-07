@@ -12,10 +12,6 @@
     <h4>{{ story.author }}</h4>
     <div id="story-content">
         <img src="{{ story.art_pic.url }}">
-        <!-- <img src="{{ story.art_pic }}"> -->
-        <!-- <img src='../media/{{ story.main_image }}'> -->
-        <!-- {{ story.art_pic }} -->
-        <!-- <img src="{% static '/news/images/placeholder-5.jpg' %}"> -->
         {{ story.content|linebreaks }}
     </div>
 </div>
